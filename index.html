@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Tamara Mondaca</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffe4e1, #ffb6c1);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff6f61, #ff9478);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+
+        nav {
+            margin-top: 1.5rem;
+        }
+
+        nav a {
+            color: #fdfdfd;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+        }
+
+        section h2 {
+            color: #ff6f61;
+            border-bottom: 3px solid #ff9478;
+            padding-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+
+        .intro {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .intro img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .intro div {
+            max-width: 600px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #ffe4e1;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: linear-gradient(to right, #ff6f61, #ff9478);
+            color: #fff;
+            margin-top: 2rem;
+            font-size: 1.1rem;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            color: white;
+            background: #ff6f61;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background: #ff9478;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tamara Andrea Mondaca Valenzuela</h1>
+        <nav>
+            <a href="#perfil">Inicio</a>
+            <a href="#aptitudes">Aptitudes</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="perfil">
+        <div class="intro">
+            <img src="./assets/img/WhatsApp Image 2025-05-22 at 19.47.22.jpeg" alt="Foto de Tamara">
+            <div>
+                <h2>Sobre mí</h2>
+                <p>"Creo en el poder del aprendizaje continuo y en la capacidad de reinventarse. Cada desafío es una oportunidad para crecer y cada idea puede convertirse en algo extraordinario."</p>
+                <p>Soy una profesional y emprendedora apasionada por transformar ideas en realidades. Con empatía y creatividad, busco soluciones innovadoras que dejen una huella positiva.</p>
+                <a href="#contacto" class="btn">¡Hablemos!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="aptitudes">
+        <h2>Aptitudes Destacadas</h2>
+        <ul>
+            <li>Diseño gráfico y UX/UI: Crear experiencias que conectan con las personas.</li>
+            <li>Análisis de datos y dashboards: Dar sentido a los números para impulsar decisiones inteligentes.</li>
+            <li>Gestión administrativa: Organizar y optimizar procesos con visión estratégica.</li>
+            <li>Marketing digital: Comunicar con impacto en el entorno digital.</li>
+            <li>Adaptabilidad: Siempre lista para aprender algo nuevo y superar retos.</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Recientes</h2>
+        <p>"Cada proyecto es una historia de esfuerzo, aprendizaje y éxito."</p>
+        <ul>
+            <li><strong>Plataforma de ecommerce:</strong> Diseño intuitivo y moderno para mejorar la experiencia de compra.</li>
+            <li><strong>Campaña de marketing:</strong> Estrategias creativas que aumentaron el alcance en redes sociales un 40%.</li>
+            <li><strong>Automatización administrativa:</strong> Soluciones eficientes que optimizaron tiempos y recursos.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>"Si crees que puedo ayudarte a alcanzar tus objetivos, no dudes en escribirme."</p>
+        <ul>
+            <li><strong>Email:</strong> tamara.mv30@gmail.com</li>
+            <li><strong>Teléfono:</strong> +56966168359</li>
+            <li><strong>Ubicación:</strong> Valparaíso</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Tamara Mondaca | <a href="#">LinkedIn</a></p>
+    </footer>
+</body>
+</html>

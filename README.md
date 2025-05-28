@@ -7,7 +7,7 @@ Una página web profesional que destaca mi experiencia, habilidades y proyectos.
 
 ## 🌐 Visualiza la Página
 La página está disponible en **GitHub Pages**:  
-[Visita mi Página Web]( https://tamaramondaca.github.io/presentacion/)
+[Visita mi Página Web]( https://tamaramondaca.github.io/pagina-web-presentacion-personal)
 
 ---
 
